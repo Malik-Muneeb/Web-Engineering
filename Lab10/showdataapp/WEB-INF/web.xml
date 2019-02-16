@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+<servlet>
+<servlet-name>DataServlet</servlet-name>
+<servlet-class>ShowData</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DataServlet</servlet-name>
+<url-pattern>/show</url-pattern>
+</servlet-mapping>
+</web-app>

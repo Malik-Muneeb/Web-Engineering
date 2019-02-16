@@ -1,0 +1,32 @@
+input
+{
+		background-color:white;
+		color:black;
+		padding:6px;
+		font-size:100%;
+}
+input[type="submit"]
+{
+	background-color:#9F09A9;
+	
+}
+label
+{
+	font-size:120%;	
+}
+body 
+{
+	background-color: light-grey;
+	font-family: gaut;
+	font-size:100%;
+}
+h1
+{
+	font-size:35px;
+}
+form 
+{ 
+	margin: 0 auto; 
+	width:550px;
+}
+	

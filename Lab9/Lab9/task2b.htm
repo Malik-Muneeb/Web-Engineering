@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>substring</title>
+</head>
+<body>
+	
+</body>
+<h1> String Demo</h1>
+	<br>
+	<label>Enter a String:</label>
+	<input type="text" name="enter-string" id="txtf1"><br>
+	<label style="padding-right:4px;">Enter a Word:</label>
+	<input type="text" name="enter-word" id="txtf2"><br>
+	<input type="button" name="enterbtn" id="btn1" value="Find Words in a string" onclick="Findword('txtf1','txtf2')">
+	<script type="text/javascript">
+		function Findword(id1,id2){
+			var str=document.getElementById(id1).value;
+			var fword=document.getElementById(id2).value;
+			
+			if(str.search(fword)==-1){
+				alert("Not Found");
+			}else
+			{
+				alert("Found");
+			}
+
+		}
+	</script>

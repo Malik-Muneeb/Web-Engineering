@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html>
+	<head>
+	<link rel="styleSheet" href="styles.css">
+	<title> Registration </title>
+	</head>
+	<body bgcolor="white">
+		<form method="GET" action="http://localhost:8081/registerapp/registration" name="signupForm">
+			&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+			<h1> Sign up </h1></br>
+			<input type="text" name="firstName" placeholder="First Name" pattern="[a-zA-Z]*" required>
+			<!--&nbsp &nbsp &nbsp &nbsp-->
+			<input type="text" name="lastName" placeholder="Last Name" pattern="[a-zA-Z]*"><br><br>
+			<input type="date" name="bdate"  style= "width:196px"><br><br>
+			<input type="email" name="mail" placeholder="Email"><br><br>
+			<input type="radio" name="gender" value="Male" checked>Male
+			<input type="radio" name="gender" value="Female" >Female<br><br>
+			<input type="submit" name="submit" value="submit">
+		</form>
+	</body>
+</html>

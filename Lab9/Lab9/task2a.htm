@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>count</title>
+</head>
+<body>
+	<h1> String Demo</h1>
+	<br>
+	<label>Enter a String:</label>
+	<input type="text" name="enter-string" id="txtf1"><br>
+	<label style="padding-right:48px;">Result:</label>
+	<input type="text" name="Result" id="txtf2"><br>
+	<input type="button" name="enterbtn" id="btn1"
+	value="Find number of words (Space seperated)" onclick="countWords()">
+	<script type="text/javascript">
+		function countWords(){
+			var words=document.getElementById("txtf1").value.split(" ");
+			var count=words.length;
+			document.getElementById("txtf2").value=count;
+			var string="";
+			for(var i=0;i<count;i++){
+				string=string+words[i]+"\n";
+			}
+			alert(string);
+
+		}
+	</script>
+
+</body>
+</html>

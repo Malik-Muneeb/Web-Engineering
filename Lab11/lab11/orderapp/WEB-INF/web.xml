@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>Order</servlet-name>
+		<servlet-class>Order</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Order</servlet-name>
+		<url-pattern>/order</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Calculate</servlet-name>
+		<servlet-class>Calculate</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Calculate</servlet-name>
+		<url-pattern>/calculate</url-pattern>
+	</servlet-mapping>
+
+</web-app>

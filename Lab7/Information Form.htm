@@ -1,0 +1,93 @@
+<!DOCTYPE>
+<html>
+<style> 
+div.picture
+{
+margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+</style>
+<head>
+<title> Information Form </title>
+</head>
+
+<body>
+  <img src="pulogo.jpg" alt="PUCIT" style="height:100px;width:100px;">
+  <form> 
+  <label for="First Name"> First Name</label>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  <input type="text" name="fname" placeholder="First Name" pattern="![0-9]"
+        title="First name should only contain letters. e.g. john" required>
+  </br>
+  <label for="First Name"> Last Name</label>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  <input type="text" name="lname" placeholder="Last Name" pattern="[a-zA-Z]"
+        title="Last name should only contain letters. e.g. john" required>
+  </br>
+  <label>Birthday</label>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  <input type="date" name="bdate"  style= "width:196px">
+  </br>
+	<label for="Gender"> Gender </label> </br>
+  &nbsp &nbsp &nbsp &nbsp <label for="male">Male</label>
+   <input type="radio" name="gender" id="male" value="male"><br>
+  &nbsp &nbsp &nbsp &nbsp  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  &nbsp &nbsp &nbsp &nbsp <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  
+  <select>
+	<option value="male"> Male</option>
+	<option value="male"> Female</option>
+	<option value="male"> other</option>
+  </select>
+  </br></br></br>
+  <table border="1">
+  <tr>
+    <th style= "text-align:left"> ID </th>
+    <th style= "text-align:left">Name</th>
+	<th>Age</th>
+  </tr>
+  <tr>
+    <td>BCSF15M030</td>
+	<td>Muneeb</td>
+	<td>22</td>
+  </tr>
+   <tr>
+    <td>BCSF15M034</td>
+	<td>Adeel</td>
+	<td>19</td>
+  </tr>
+   <tr>
+    <td>BCSF15M039</td>
+	<td>Sharry</td>
+	<td>20</td>
+  </tr>
+   <tr>
+    <td>BCSF15M045</td>
+	<td>Mudassir</td>
+	<td>20</td>
+  </tr>
+   <tr>
+    <td>BCSF15M022</td>
+	<td>Nouman</td>
+	<td>21</td>
+  </tr>
+</table>
+	</br><a href="https://www.google.com">Google</a></br>
+	</br><a href="https://www.facebook.com">Facebook</a></br>
+	</br><a href="https://www.youtube.com">YouTube</a></br>
+	</br>
+	 <input type="submit" value="Submit">
+	 </br> </br></br>
+	<div class="picture">
+    <img src="images1.jpg" alt="puppy" width="300" height="200">
+	<img src="images2.jpg" alt="puppy" width="300" height="200">
+	</div>
+	</br>
+ 
+  </form>
+</body>
+</html>
